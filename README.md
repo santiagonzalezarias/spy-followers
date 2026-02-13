@@ -1,6 +1,12 @@
 # SpyFollowers - Instagram Follower Tracker
+![Version](https://img.shields.io/badge/version-1.0.0-green.svg)
+![Next.js](https://img.shields.io/badge/Next.js-16-black)
+![Tailwind](https://img.shields.io/badge/Tailwind-4-38bdf8)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 Analiza tus seguidores de Instagram de manera simple, segura y rápida. Descubre quién no te sigue de vuelta sin comprometer tu seguridad.
+
+---
 
 ## 🚀 ¿Qué hace esta herramienta?
 
