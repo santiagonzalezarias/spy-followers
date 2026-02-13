@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SpyFollowers - Instagram Follower Tracker
 
-## Getting Started
+Analiza tus seguidores de Instagram de manera simple, segura y rápida. Descubre quién no te sigue de vuelta sin comprometer tu seguridad.
 
-First, run the development server:
+![SpyFollowers Logo](/public/logo.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 ¿Qué hace esta herramienta?
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+SpyFollowers es una herramienta web diseñada para ayudarte a gestionar tu cuenta de Instagram. Funciona mediante un script seguro que se ejecuta en tu propio navegador (del lado del cliente) para comparar tus listas de "Seguidores" y "Seguidos".
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Características principales:**
+- 🕵️ **Detecta quién no te sigue de vuelta:** Identifica rápidamente a los usuarios que sigues pero que no te siguen a ti.
+- 🔒 **100% Seguro:** No requiere tu contraseña de Instagram. Todo el análisis ocurre localmente en tu dispositivo.
+- 📱 **Diseño Responsive:** Funciona perfectamente en computadoras de escritorio y dispositivos móviles.
+- ⚡ **Rápido y Ligero:** Optimizado para un rendimiento veloz sin sobrecargar tu navegador.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📝 Instrucciones de Uso
 
-## Learn More
+1.  Abre la aplicación SpyFollowers.
+2.  Haz clic en el botón de copiar para obtener el script de análisis.
+3.  Abre Instagram en tu navegador (asegúrate de haber iniciado sesión).
+4.  Abre las Herramientas de Desarrollador (F12 o Clic derecho -> Inspeccionar).
+5.  Ve a la pestaña **Consola** (Console).
+6.  Pega el script que copiaste y presiona **Enter**.
+7.  ¡Listo! La herramienta comenzará a analizar tus seguidores automáticamente.
 
-To learn more about Next.js, take a look at the following resources:
+## 🛡️ Privacy Disclaimer (Aviso de Privacidad)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Tu privacidad es nuestra prioridad.**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **No almacenamos tus datos:** SpyFollowers no guarda, rastrea ni envía ninguna información de tu cuenta de Instagram a servidores externos.
+- **Acceso local:** El script se ejecuta únicamente en tu navegador. Tus cookies y tokens de sesión de Instagram nunca salen de tu entorno local.
+- **Uso educativo:** Esta herramienta fue creada con fines educativos y para facilitar la gestión personal de cuentas.
+- **Responsabilidad:** El uso de esta herramienta es responsabilidad del usuario. Recomendamos usarla con moderación para evitar bloqueos temporales por parte de Instagram (soft-bans) debido a un exceso de solicitudes.
 
-## Deploy on Vercel
+## 💻 Para Desarrolladores
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Si deseas contribuir o ejecutar este proyecto en tu entorno local, sigue estos pasos:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Tecnologías Utilizadas
+- [Next.js](https://nextjs.org/) - Framework de React para producción.
+- [Tailwind CSS](https://tailwindcss.com/) - Framework de utilidades CSS.
+- [Framer Motion](https://www.framer.com/motion/) - Librería para animaciones fluidas.
+- [Lucide React](https://lucide.dev/) - Iconos hermosos y consistentes.
+- [Sonner](https://sonner.emilkowal.ski/) - Notificaciones toast para React.
+
+### Instalación y Ejecución
+
+1.  Clona el repositorio:
+    ```bash
+    git clone https://github.com/tu-usuario/spy-followers.git
+    cd spy-followers
+    ```
+
+2.  Instala las dependencias:
+    ```bash
+    npm install
+    # o
+    yarn install
+    ```
+
+3.  Ejecuta el servidor de desarrollo:
+    ```bash
+    npm run dev
+    # o
+    yarn dev
+    ```
+
+4.  Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver la aplicación.
+
+---
+Creado con ❤️ por [Santi Arias](https://santiarias.com)
