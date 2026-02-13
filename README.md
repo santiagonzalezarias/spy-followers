@@ -2,8 +2,6 @@
 
 Analiza tus seguidores de Instagram de manera simple, segura y rápida. Descubre quién no te sigue de vuelta sin comprometer tu seguridad.
 
-![SpyFollowers Logo](/public/logo.png)
-
 ## 🚀 ¿Qué hace esta herramienta?
 
 SpyFollowers es una herramienta web diseñada para ayudarte a gestionar tu cuenta de Instagram. Funciona mediante un script seguro que se ejecuta en tu propio navegador (del lado del cliente) para comparar tus listas de "Seguidores" y "Seguidos".
